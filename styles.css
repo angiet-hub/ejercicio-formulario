@@ -6,6 +6,7 @@ body {
 
 .container {
     width: 80%;
+    height: 784px;
     margin: 104px auto;
     display: flex;
     flex-direction: row;
@@ -34,33 +35,62 @@ p {
 
 .sign-up {
     position: absolute;
-    bottom: 85px;
+    bottom: 40px;
     right: 40px;
     color: white;
     border: 1.5px solid gray;
 }
 
 main {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.753);
     width: 65%;
     padding: 56px 28px 10px 54px;
+    position: relative;
 }
 
 form {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 90px;
+    margin-top: 10px;
 }
 
-input {
+input, select {
     margin: 10px 35px 15px 0px;
-    width: 215px;
     height: 36px;
     border: 1.5px solid rgb(107, 105, 105);
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-weight: bold;
-    padding-left: 33px;
     border-radius: 5px;
+    padding-left: 33px; 
+}
+
+input {
+    width: 215px;
+}
+
+select {
+    width: 252px;
+}
+
+button {
+    position: absolute;
+    left: 329px;
+    width: 171px;
+    height: 50px;
+    bottom: 88px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(72, 72, 138, 0.418);
+    font-size: 26px;
+    color: black;
+    border-radius: 14px;
+}
+
+.have-account {
+    position: absolute;
+    left: 353px;
+    bottom: 43px;
 }
 
 .first-name, .phone, .email {
