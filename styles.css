@@ -1,0 +1,87 @@
+body {
+    background-image: url(rompiendo-barreras-computacion-cuantica.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 104px auto;
+    display: flex;
+    flex-direction: row;
+    box-shadow: -1px 16px 97px -10px rgba(255, 255, 255, 0.753);
+}
+
+.info {
+    background-color: rgba(72, 72, 138, 0.418);
+    width: 35%;
+    position: relative;
+}
+
+h1 {
+    font-size: 94px;
+    text-align: left;
+    color: rgb(172, 165, 165);
+    margin: 114px 26px 76px;
+}
+
+p {
+    font-size: 14x;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0 56px
+}
+
+.sign-up {
+    position: absolute;
+    bottom: 85px;
+    right: 40px;
+    color: white;
+    border: 1.5px solid gray;
+}
+
+main {
+    background-color: white;
+    width: 65%;
+    padding: 56px 28px 10px 54px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    margin: 10px 35px 15px 0px;
+    width: 215px;
+    height: 36px;
+    border: 1.5px solid rgb(107, 105, 105);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 33px;
+    border-radius: 5px;
+}
+
+.first-name, .phone, .email {
+    position: relative;
+}
+
+.icon-user, .icon-email {
+    bottom: 30px;
+}
+
+.icon-user, .icon-phone, .icon-email {
+    position:absolute;
+    left: 7px;
+    color:rgb(107, 105, 105);
+}
+
+.first-name > input, .phone > input, .email > input {
+    padding-left: 33px;
+}
+
+.icon-phone {
+    font-size: 20px;
+    bottom: 26px;
+}
